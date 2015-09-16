@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="DBC4A9F7-C532-6F9B-6160-A474556B6EB6">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 20:56:03 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

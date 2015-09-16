@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74569FB5-B728-0972-D6FA-CC07E1A6B0DA" name="OrderTbl">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:18:50 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdNo" id="B99D72BE-E785-FB13-15B7-9C4C0A4582BA">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:21:09 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdDate" id="0B9500AB-4776-4D1D-B67F-B9F879D896CE">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:21:09 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustNo" id="424EB612-1D76-F02E-4504-B2F58307BE1D">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:21:10 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="293066F8-37A5-556C-FA56-6B568E7A7088" referredColumn="CBCF42DE-2ED2-C262-23B1-7BC53B7A353D"/>
+</associations>
+</Column>
+<Column name="EmpNo" id="B44931EC-29ED-9EC5-1585-CEC868B2F13C">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:21:10 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61CD0E76-3735-C5F9-23C5-7091FD6FA891" referredColumn="A2DE6CBB-5132-933E-E244-7DC081695CB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8A24AD8-D3E0-C609-6E62-688D284DF71B" name="OrderTbl_PK">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:21:10 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99D72BE-E785-FB13-15B7-9C4C0A4582BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88AA1AD0-3F25-E0CD-7996-0C893C9E4680" name="OrderTbl_Employee_FK">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:29:06 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B44931EC-29ED-9EC5-1585-CEC868B2F13C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26159904-D4F8-B3B6-6631-9B70D84F0030" name="OrderTbl_Customer_FK">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 21:29:17 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="424EB612-1D76-F02E-4504-B2F58307BE1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

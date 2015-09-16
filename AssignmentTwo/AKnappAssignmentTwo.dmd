@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AKnappAssignmentTwo" id="08BB1310-AC7D-D2FD-07E1-A1A22F12F77B" version="3.5">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 20:56:02 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>08BB1310-AC7D-D2FD-07E1-A1A22F12F77B</designId>
+</OSDM_Design>

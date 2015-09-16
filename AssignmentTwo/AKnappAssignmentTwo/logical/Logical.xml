@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="71549ED0-483E-BD5A-A296-9601DFDB27FF" mainViewID="90B8C659-867B-DDAE-D2BB-7E95ED3F5891">
+<createdBy>Drew</createdBy>
+<createdTime>2015-09-14 20:56:02 UTC</createdTime>
+<ownerDesignName>AKnappAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
