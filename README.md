@@ -1,3 +1,3 @@
-# MSIS537L711
-MSIS 537 Class Repository
+# MSISFiveThirtySevenLSevenEleven
+MSIS FiveThirtySeven Class Repository
 Testing
